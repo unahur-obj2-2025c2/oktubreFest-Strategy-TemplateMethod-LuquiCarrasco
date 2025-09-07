@@ -3,7 +3,9 @@ package ar.edu.unahur.obj2.marcas;
 public class AlcoholReglamentario {
     private static AlcoholReglamentario instance = new AlcoholReglamentario();
     private Double valor;
+
     private AlcoholReglamentario(){}
+    
     public static void setInstance(AlcoholReglamentario instance) {
         AlcoholReglamentario.instance = instance;
     }

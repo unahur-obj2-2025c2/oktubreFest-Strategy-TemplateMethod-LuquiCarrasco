@@ -2,19 +2,21 @@ package ar.edu.unahur.obj2.marcas;
 
 public abstract class Marcas {
     private String paisFabricacion;
-    private Integer contenidoLupulos;
-    private String nombre;
-    
-    public Marcas(String paisFabricacion, Integer contenidoLupulos, String nombre) {
+    private Double contenidoLupulos;
+
+    public Marcas(String paisFabricacion, Double contenidoLupulos) {
         this.paisFabricacion = paisFabricacion;
         this.contenidoLupulos = contenidoLupulos;
-        this.nombre = nombre;
     }
 
     public abstract Double getGraduacionAlcoholica();
     
-    public Integer getContenidoLupulos() {
+    public Double getContenidoLupulos() {
         return contenidoLupulos;
+    }
+
+    public String getPaisFabricacion() {
+        return paisFabricacion;
     }
 
    

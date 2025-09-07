@@ -12,4 +12,15 @@ public class Jarra {
     public Double getAlcoholEnLitros(){
         return litros * marca.getGraduacionAlcoholica();
     }
+
+    public Double getLitros() {
+        return litros;
+    }
+
+    public Marcas getMarca() {
+        return marca;
+    }
+
+    
+    
 }

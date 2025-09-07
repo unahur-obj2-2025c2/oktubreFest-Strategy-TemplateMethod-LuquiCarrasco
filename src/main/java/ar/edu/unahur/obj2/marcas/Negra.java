@@ -2,8 +2,8 @@ package ar.edu.unahur.obj2.marcas;
 
 public class Negra extends Marcas{
 
-    public Negra(String paisFabricacion, Integer contenidoLupulos, String nombre) {
-        super(paisFabricacion, contenidoLupulos, nombre);
+    public Negra(String paisFabricacion, Double contenidoLupulos) {
+        super(paisFabricacion, contenidoLupulos);
     }
 
     @Override

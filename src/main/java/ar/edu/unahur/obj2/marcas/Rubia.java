@@ -4,8 +4,8 @@ package ar.edu.unahur.obj2.marcas;
 public class Rubia extends Marcas {
     private Double graduacionRubia;
 
-    public Rubia(String paisFabricacion, Integer contenidoLupulos, String nombre, Double graduacionRubia) {
-        super(paisFabricacion, contenidoLupulos, nombre);
+    public Rubia(String paisFabricacion, Double contenidoLupulos,Double graduacionRubia) {
+        super(paisFabricacion, contenidoLupulos);
         this.graduacionRubia = graduacionRubia;
     }
 

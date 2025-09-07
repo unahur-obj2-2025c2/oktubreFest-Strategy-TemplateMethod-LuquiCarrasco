@@ -9,8 +9,14 @@ public class Belga extends Personas{
     }
 
     @Override
+    public
     Boolean leGustaUnaBirra(Marcas unaBirra) {
         return unaBirra.getContenidoLupulos() > 4;
+    }
+
+    @Override
+    protected String nacionalidad() {
+        return "Belga";
     }
 
 }

@@ -3,8 +3,8 @@ package ar.edu.unahur.obj2.marcas;
 
 public class Roja extends Marcas{
 
-    public Roja(String paisFabricacion, Integer contenidoLupulos, String nombre) {
-        super(paisFabricacion, contenidoLupulos, nombre);
+    public Roja(String paisFabricacion, Double contenidoLupulos) {
+        super(paisFabricacion, contenidoLupulos);
     }
 
     @Override
