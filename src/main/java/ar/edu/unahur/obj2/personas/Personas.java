@@ -23,8 +23,7 @@ abstract public class Personas {
         this.nivelDeAguante = nivelDeAguante;
     }
 
-
-    private void jarrasCompras(Jarra unaJarra){
+    private void comprarJarra(Jarra unaJarra){
         jarrasCompradas.add(unaJarra);
     }
     public List<Jarra> getJarrasCompradas() {
